@@ -16,4 +16,11 @@ body{
 }
 .kid{
     background-image: url(kid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:200px;
+    height:145px;
+    position:absolute;
+    bottom:0;
+
 }

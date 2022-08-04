@@ -8,10 +8,12 @@ body{
     background: url('https://img.freepik.com/premium-vector/nature-illustrations-sunset_46176-158.jpg?w=2000') no-repeat center center fixed;
     background-size: cover;
 }
+
 .gameContainer{
     /*background: url('th.jpg') no-repeat center center fixed;
     background-size: cover;*/
 }
+
 .kid{
     background-image: url('http://www.pngplay.com/wp-content/uploads/2/Running-Female-Transparent-File.png');
     background-repeat: no-repeat;
@@ -22,8 +24,9 @@ body{
     bottom:0;
     left: 45px;
 }
+
 .obstacle{
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.fc3o-DQedwaWpBeW4O_okAHaEI&pid=Api&P=0'); 
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.fuRZ62-CatU5iCGJcuHa_AHaE4&pid=Api&P=0'); 
     background-size:cover;
     width: 185px;
     height: 125px;

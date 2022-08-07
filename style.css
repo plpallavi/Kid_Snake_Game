@@ -26,7 +26,7 @@ body{
 }
 
 .obstacle{
-    background-image: url('https://png.pngtree.com/png-clipart/20190118/ourmid/pngtree-green-snake-hand-drawn-snake-snake-tongue-cute-little-snake-png-image_446279.jpg'); 
+    /*  background-image: url('https://png.pngtree.com/png-clipart/20190118/ourmid/pngtree-green-snake-hand-drawn-snake-snake-tongue-cute-little-snake-png-image_446279.jpg'); */
     background-size:cover;
     width: 185px;
     height: 125px;

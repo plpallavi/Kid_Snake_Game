@@ -15,7 +15,7 @@ body{
 }
 
 .kid{
-    background-image: url('http://www.pngplay.com/wp-content/uploads/2/Running-Female-Transparent-File.png');
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.iokIAmK0xsSoelmKFPLOdwHaO4&pid=Api&P=0');
     background-repeat: no-repeat;
     background-size: cover;
     width:200px;
@@ -30,6 +30,9 @@ body{
     background-size:cover;
     width: 185px;
     height: 125px;
+    position: absolute;
+    bottom:0;
+    left:45vw;
 
 }
 

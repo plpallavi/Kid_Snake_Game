@@ -7,19 +7,20 @@ body{
     /* background-color: pink;*/
     background: url('https://img.freepik.com/premium-vector/nature-illustrations-sunset_46176-158.jpg?w=2000') no-repeat center center fixed;
     background-size: cover;
+    overflow: hidden;
 }
-
+/*
 .gameContainer{
-    /*background: url('th.jpg') no-repeat center center fixed;
-    background-size: cover;*/
+    background: url('th.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
-
+*/
 .kid{
     background-image: url('kid.png');
     background-repeat: no-repeat;
     background-size: cover;
     width:200px;
-    height:145px;
+    height:300px;
     position:absolute;
     bottom:0;
     left: 45px;
@@ -35,4 +36,46 @@ body{
     left:45vw;
 
 }
+.animatedkid{
+    animation: kid 0.6s linear;
 
+}
+@keyframes kid{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 200px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+.obstacleAni{
+    animation: obstacleAni 5s linear infinite;
+}
+.gameOver{
+    visibility: hidden;
+}
+
+#scoreCont{
+    font-size: 25px;
+    color: #54212f;
+    font-weight: bold;
+    position: absolute;
+    right: 45px;
+    top: 31px;
+    border: 2px solid black;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+}
+
+@keyframes obstacleAni{
+    0%{
+        left : 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
